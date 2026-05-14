@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "07-Webservice",
+        "05-Mutex",
+        "04-ClockSync",
+        "03-MessagePassingInterface",
+        "02-RemoteMethodExecution",
+        "01-SocketProgramming",
+        "06-Election"
+    ]
+}
