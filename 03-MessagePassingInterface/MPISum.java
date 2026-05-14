@@ -1,6 +1,15 @@
+/*
+    https://sourceforge.net/projects/mpjexpress/files/releases/ MPI Download
+    export MPJ_HOME=/home/soham/mpj
+    export PATH=$MPJ_HOME/bin:$PATH
+    javac -cp $MPJ_HOME/lib/mpj.jar MPISum.java
+    mpjrun.sh -np 4 MPISum
+*/
+
+
 import mpi.*;
 
-public class MPI {
+public class MPISum {
     public static void main(String[] args) throws Exception {
 
         // Initialize MPI
